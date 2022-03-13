@@ -72,10 +72,24 @@ a:active {
   transform: translateY(0);
   opacity: 1;
 }
-.vl {
-  height: 110vh;
+.vlg {
+  height: 33vh;
   width: 6px;
-  background: aliceblue;
+  background: green;
+  margin-right: 8vw;
+  margin-left: 8vw;
+}
+.vlw {
+  height: 33vh;
+  width: 6px;
+  background: white;
+  margin-right: 8vw;
+  margin-left: 8vw;
+}
+.vlr {
+  height: 33vh;
+  width: 6px;
+  background: red;
   margin-right: 8vw;
   margin-left: 8vw;
 }
