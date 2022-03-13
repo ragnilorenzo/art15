@@ -4,17 +4,17 @@ body {
       align-items: center;
       justify-content: center;
       margin: 0 auto;
+      max-width: 85%;
       height: 100vh;
       background-color: #f1f1f1;
     }
 .testo {
   font-size: 6vw;
   text-align: center;
-  max-width: 80%;
 }
 .link {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 4em;
+  margin-bottom: 4em;
   text-align: center;
   font-size: 5vw;
 }
