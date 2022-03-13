@@ -14,6 +14,29 @@ header {
 section {
   min-height: 100vh;
 }
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: dodgerblue;
+  text-decoration: none;
+}
 .testo {
   font-size: 6vmin;
   text-align: center;
@@ -22,7 +45,8 @@ section {
 .link {
   margin-top: 2em;
   margin-bottom: 2em;
-  text-align: center;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
   font-size: 5vmin;
 }
 .reveal{
