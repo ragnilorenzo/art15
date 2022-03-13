@@ -8,13 +8,17 @@ body {
       height: 100vh;
       background-color: #f1f1f1;
     }
+header {
+  font-size: 12vw;
+  margin-bottom: 1em;
+}
 .testo {
   font-size: 6vw;
   text-align: center;
 }
 .link {
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   text-align: center;
   font-size: 5vw;
 }
