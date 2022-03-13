@@ -12,9 +12,11 @@ header {
   margin-bottom: 1em;
 }
 section {
-  min-height: 100vh;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 /* unvisited link */
 a:link {
