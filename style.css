@@ -11,6 +11,9 @@ header {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+section {
+  min-height: 100vh;
+}
 .testo {
   font-size: 6vmin;
   text-align: center;
@@ -21,4 +24,14 @@ header {
   margin-bottom: 2em;
   text-align: center;
   font-size: 5vmin;
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
