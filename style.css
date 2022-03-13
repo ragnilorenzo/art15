@@ -57,6 +57,10 @@ a:active {
   text-align: right;
   font-family: 'Open Sans', sans-serif;
   font-size: 5vmin;
+  font-weight: 300;
+}
+#strong .link {
+  font-weight: 500;
 }
 .dark {
   background: lightslategray;
