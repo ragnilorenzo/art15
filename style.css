@@ -8,7 +8,7 @@ body {
       background-color: #f1f1f1;
     }
 .testo {
-  font-size: 5vw;
+  font-size: 6vw;
   text-align: center;
   max-width: 80%;
 }
@@ -16,5 +16,5 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 3vw;
+  font-size: 4vw;
 }
