@@ -1,4 +1,12 @@
-p {
-  text-align: center;
+body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      height: 100vh;
+      background-color: #f1f1f1;
+    }
+.testo {
   font-size: 5vw;
+  max-width: 80%;
 }
