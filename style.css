@@ -3,21 +3,22 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin: 0 auto;
-      max-width: 85%;
+      margin: auto;
       background-color: #f1f1f1;
     }
 header {
-  font-size: 14vw;
+  font-size: 14vmin;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 .testo {
-  font-size: 6vw;
+  font-size: 6vmin;
   text-align: center;
+  max-width: 80%;
 }
 .link {
   margin-top: 2em;
   margin-bottom: 2em;
   text-align: center;
-  font-size: 5vw;
+  font-size: 5vmin;
 }
