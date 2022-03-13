@@ -13,6 +13,8 @@ header {
 }
 section {
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 /* unvisited link */
 a:link {
