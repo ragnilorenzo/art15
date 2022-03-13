@@ -5,6 +5,7 @@ body {
       height:100%;
     }
 header {
+  text-align: center;
   font-size: 14vmin;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -48,9 +49,11 @@ a:active {
 }
 .testo {
   font-size: 6vmin;
-  text-align: center;
-  padding-left: -left: 1vw;
-  padding-right: 1vw;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 10vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 .link {
   margin-bottom: 2em;
