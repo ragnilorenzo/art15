@@ -1,21 +1,27 @@
 body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: auto;
+      margin-left: auto;
       background-color: #f1f1f1;
+      width: 100%;
+      height:100%;
     }
 header {
   font-size: 14vmin;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-section {
+.container {
   display: flex;
+  overflow: hidden;
+  height: 100vh;
+  /*border: 5px solid red;*/
+}
+.vertical {
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+}
+.horizontal {
+  flex-direction: row;
+  justify-content: center;
 }
 /* unvisited link */
 a:link {
@@ -43,7 +49,8 @@ a:active {
 .testo {
   font-size: 6vmin;
   text-align: center;
-  max-width: 80%;
+  padding-left: -left: 1vw;
+  padding-right: 1vw;
 }
 .link {
   margin-bottom: 2em;
@@ -53,11 +60,7 @@ a:active {
 }
 .dark {
   background: lightslategray;
-  color: lightslategray;
-  width: 100%;
-  height: 110vh;
-  padding-right: 10%;
-  overflow: hidden;
+  justify-content: flex-end;
 }
 .reveal {
   position: relative;
@@ -70,10 +73,9 @@ a:active {
   opacity: 1;
 }
 .vl {
-  border-left: 6px solid teal;
-  height: 500px;
-  position: absolute;
-  left: 5%;
-  margin-left: -3px;
-  top: 0;
+  height: 110vh;
+  width: 6px;
+  background: aliceblue;
+  margin-right: 8vw;
+  margin-left: 8vw;
 }
